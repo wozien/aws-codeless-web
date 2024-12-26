@@ -1,0 +1,16 @@
+{
+	"name": "@aws-codeless-web/setters",
+	"version": "1.0.0",
+	"description": "",
+	"files": ["dist"],
+	"main": "./dist/index.mjs",
+	"types": "dist/index.d.mts",
+	"scripts": {
+		"start": "tsup --watch",
+		"build": "tsup",
+		"lint": "biome check --write --unsafe ./src"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}

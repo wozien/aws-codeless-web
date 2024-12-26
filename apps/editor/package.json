@@ -1,0 +1,23 @@
+{
+	"name": "@aws-codeless-web/editor",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "vite",
+		"start": "vite",
+		"build": "vite build",
+		"lint": "biome check --write --unsafe ./src",
+		"preview": "vite preview"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@aws-codeless-web/core": "workspace:^",
+		"@aws-codeless-web/materials": "workspace:^",
+		"@aws-codeless-web/setters": "workspace:^",
+		"react-frame-component": "^5.2.6",
+		"split-pane-react": "^0.1.3"
+	}
+}
